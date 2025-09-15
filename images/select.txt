@@ -1,0 +1,9 @@
+if (success === true) {
+					for (let i = 0; i < data.length; i++) {
+						const id = data[i].userId;
+						const value = data[i].fullName;
+						$('#searchList_'+ fieldId).append('<li onclick="_clickOption(\'searchList_' + fieldId + '\', \'' + id + '\', \'' + value + '\');">'+ value +'</li>');
+					}	
+				} else {
+					_actionAlert(info.message, false); 
+				}

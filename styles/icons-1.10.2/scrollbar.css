@@ -1,0 +1,45 @@
+
+
+
+
+
+/* this css works with jquery  for scrollbar*/
+
+.sb-container{
+    position: relative;
+    overflow: hidden;
+}
+.sb-content {
+  height:100%;
+  width: 120%;
+  padding-right: 20%;
+  overflow-y: scroll;
+  box-sizing:border-box;
+}
+.sb-scrollbar-container {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    top: 5px;
+    width: 5px;
+}
+.sb-container-noscroll .sb-scrollbar-container {
+    right: -20px;
+}
+
+.sb-scrollbar {
+  position: absolute;
+  right: 0;
+  height: 30px;
+  width: 8px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  -moz-transition:background 0.2s ease-in 02s;
+transition:background 0.2s ease-in 0.2s;
+-webkit-transition:background 0.2s ease-in 0.2s;
+-ms-transition:background 0.2s ease-in 0.2s;
+-o-transition:background 0.2s ease-in 0.2s;
+z-index:1000;
+
+}
+/* this css works with jquery  for scrollbar*/
