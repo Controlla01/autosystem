@@ -6,12 +6,13 @@ This project was built as part of my portfolio to showcase my skills in API deve
 
 ---
 
-## ✨ Features
-- 🔑 User authentication & validation 
-- 📊 API endpoints for frontend ↔ backend communication
-- 📂 Record management (create, update, fetch, delete)  
-- 📱 Responsive design (desktop + mobile) 
-- ⚡ Simple, clean, and secure code structure
+## ✨ Features  
+- 🔑 **User Authentication** (Register, Login, Session Handling)  
+- 📊 **Dynamic Dashboard** with real-time data  
+- 🔄 **API Integration** between backend and frontend  
+- 📂 **CRUD Operations** (Create, Read, Update, Delete)  
+- 📱 **Responsive Design** for desktop and mobile  
+- 🔒 **Basic Security Checks** on forms and inputs 
 
 ---
 
